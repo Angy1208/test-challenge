@@ -7,8 +7,10 @@ function calcularFactorial(numero) {
     }
   }
   
-  // Ejemplo de uso:
+  /* Ejemplo de uso:
   const numeroEjemplo = 5;
   const resultado = calcularFactorial(numeroEjemplo);
   
   console.log(`El factorial de ${numeroEjemplo} es: ${resultado}`);
+  **/
+  module.exports = calcularFactorial;

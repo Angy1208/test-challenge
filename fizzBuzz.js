@@ -10,7 +10,8 @@ function fizzBuzz(numero) {
     }
   }
   
-  // Ejemplo de uso:
+  /* Ejemplo de uso:
   for (let i = 1; i <= 15; i++) {
     console.log(fizzBuzz(i));
-  }
+  } **/
+  module.exports = fizzBuzz;
